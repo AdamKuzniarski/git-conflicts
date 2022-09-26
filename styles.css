@@ -1,7 +1,21 @@
+
 body {
   margin: 0 auto;
   width: min(100% - 2rem, 68ch);
+  width: min(100% - 2rem, var(--max-width));
 }
 html {
   color: aliceblue;
+}
+:root {
+  --max-width: 60ch;
+}
+
+
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: rgb(0, 0, 0, 0.6);
+>>>>>>> 25cca8a (move max-width to custom property)
 }
